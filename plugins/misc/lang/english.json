@@ -1,8 +1,9 @@
 {
+    
     "STRINGS": {
         "converters": {
-        "STICKER_DESC":"Creates stickers. Reply to media.",
-        "STICKER_NEED_REPLY":"Reply to a photo or a short video",
+        "STICKER_DESC":"إصنع ملصق خاص بك ارسل صورة ثم قم بالاشارة لها واكتب هذا الامر .",
+        "STICKER_NEED_REPLY":"قم بالاشارة لصورة او فيديو",
         "MP3_DESC":"Converts replied media to mp3 format",
         "MP3_NEED_REPLY:":"Reply to an audio or video",
         "BASS_DESC:":"Bass boosts audio. .bass 20",
@@ -21,12 +22,12 @@
             "NO_PLUGIN": "No installed plugins found!",
             "REMOVE_DESC": "Removes plugin.",
             "NEED_PLUGIN": "Please give a plugin name! Example: .remove news*",
-            "PLUGIN_NOT_FOUND": "Maybe you have installed such a plugin, or maybe not. But it sure isn't right now.",
+            "PLUGIN_NOT_FOUND": "Maybe you have installed such a plugin, or maybe not. But it sure isn t right now.",
             "DELETED": "✅ Plugin {} successfully deleted. Restart to make changes"
         },
         "group": {
             "KICK_DESC": "Kicks participants from group.",
-            "NOT_ADMIN": "I'm not an admin",
+            "NOT_ADMIN": "I m not an admin",
             "ISADMIN": "Participant is an admin",
             "KICKED": "Kicked!",
             "NEED_USER": "Need a participant",
@@ -44,10 +45,10 @@
             "MUTED": "Group muted. Only admins can send messages",
             "UNMUTE_DESC": "Unmutes the group chat allowing all participants to send messages",
             "UNMUTED": "Group opened.",
-            "REVOKE_DESC": "Resets the group's invitation link.",
+            "REVOKE_DESC": "Resets the group s invitation link.",
             "REVOKED": "Group link reset!",
             "TAGALL_DESC": "Tags all members of the group.",
-            "INVITE_DESC": "Provides the group's invitation link.",
+            "INVITE_DESC": "Provides the group s invitation link.",
             "INVITE": "Invite link:",
             "JID_DESC": "Gives jid of chat/user.",
             "GROUP_COMMAND": "This command only works in group chats",
@@ -61,13 +62,13 @@
         },
         "afk": {
             "AFK_DESC": "It makes you AFK - Away From Keyboard.",
-            "IM_AFK": "I'm AFK now!",
-            "IM_AFK_NOMD": "I'm AFK now!",
+            "IM_AFK": "I m AFK now!",
+            "IM_AFK_NOMD": "I m AFK now!",
             "REASON": "Reason",
             "LAST_SEEN": "Last Seen",
             "IM_NOT_AFK": "I am not AFK anymore!",
             "AFK_TEXT": "My owner is not here at the moment.",
-            "AFK_TEXT_NOMD": "I'm a bot!",
+            "AFK_TEXT_NOMD": "I m a bot!",
             "HOUR": "hour",
             "MINUTE": "minute",
             "SECOND": "second"
@@ -105,7 +106,7 @@
             "NOT_FOUND": "No results found for this key"
         },
         "filters": {
-            "FILTER_DESC": "It adds a filter. If someone writes your filter, it send the answer. If you just write .filter, it show's your filter list.",
+            "FILTER_DESC": "It adds a filter. If someone writes your filter, it send the answer. If you just write .filter, it show s your filter list.",
             "NO_FILTER": "No filters found in this chat",
             "FILTERS": "🔎 Your filters in this chat:",
             "NEED_REPLY": "❌ Please type in reply!*\n*Example:",
@@ -117,13 +118,13 @@
         },
         "greetings": {
             "WELCOME_DESC": "It sets the welcome message. If you leave it blank it shows the welcome message.",
-            "NOT_SET_WELCOME": "You don't set the welcome message yet.!*\n**To set:** _.welcome your welcome message",
+            "NOT_SET_WELCOME": "You don t set the welcome message yet.!*\n**To set:** _.welcome your welcome message",
             "WELCOME_ALREADY_SETTED": "✅ Welcome message already set!*\n*Message:* ",
             "NEED_WELCOME_TEXT": "Need a welcome message.*\n*Example:* _.welcome WELCOME!",
             "WELCOME_DELETED": "✅ Welcome message deactivated !",
             "WELCOME_SETTED": "✅ Welcome messages set",
-            "GOODBYE_DESC": "Sets the goodbye message. If you leave blank, it show's the goodbye message.",
-            "NOT_SET_GOODBYE": "You didn't set a goodbye message!*\n*To set:* _.goodbye Your Goodbye Message",
+            "GOODBYE_DESC": "Sets the goodbye message. If you leave blank, it show s the goodbye message.",
+            "NOT_SET_GOODBYE": "You didn t set a goodbye message!*\n*To set:* _.goodbye Your Goodbye Message",
             "GOODBYE_ALREADY_SETTED": "✅ Goodbye message has been set!*\n*Message:* ",
             "NEED_GOODBYE_TEXT": "You must write a message to set up the goodbye message.*\n*Example:* _.goodbye Goodbye!",
             "GOODBYE_DELETED": "✅ Goodbye message has been deleted successfully!",
@@ -138,7 +139,7 @@
             "OCR_DESC": "Reads the text on the photo you have replied.",
             "NEED_REPLY": "Reply to a photo!",
             "DOWNLOADING": "Media is downloading & reading...",
-            "ERROR": "I couldn't read this :/_\n*Error:*_{}",
+            "ERROR": "I couldn t read this :/_\n*Error:*_{}",
             "RESULT": "Language:* _{}_\n*Here is what I read:* _{}"
         },
         "profile": {
@@ -152,53 +153,53 @@
             "BLOCKED": "Blocked!",
             "UNBLOCKED": "Unblocked!",
             "NEED_USER": "Give me a user!",
-            "JID_DESC": "Gives user's JID."
+            "JID_DESC": "Gives user s JID."
         },
         "scrapers": {
-            "TRANSLATE_DESC": "It translates replied msg with Google Translate",
-            "TRANSLATE_USAGE": ".trt en ml (From English to Malayalam)",
-            "NEED_REPLY": "Please reply to any message!",
-            "TRANSLATE_ERROR": "❌ An error occured while translating!",
+            "TRANSLATE_DESC": "الترجمة الفورية لكل اللغات",
+            "TRANSLATE_USAGE": ".trt en ar (From English to Arabic)",
+            "NEED_REPLY": "قم بالاشارة للرسالة التي تريد ترجمتها!",
+            "TRANSLATE_ERROR": "❌ هناك مشكلة قم بالمحاولة لاحقا!",
             "TTS_DESC": "Converts text to speech using google tts.",
-            "TTS_NEED_REPLY": "Need text!",
+            "TTS_NEED_REPLY": "اكتب كلمة او نص الذي تريد تحويله لاوديو!",
             "TTS_ERROR": "Failed to convert to speech. Please check your requested params!",
-            "SONG_DESC": "Downloads songs from youtube (list).",
-            "NEED_TEXT_SONG": "Which song? \neg: .song Arabic Kuthu",
-            "NO_RESULT": "Not found",
-            "UPLOADING_SONG": "Downloading and uploading",
-            "VIDEO_DESC": "Downloads video from YouTube.",
-            "NEED_VIDEO": "Where's the link?",
-            "DOWNLOADING_VIDEO": "Downloading",
-            "UPLOADING_VIDEO": "Uploading",
+            "SONG_DESC": "تحميل الموسيقى من اليوتوب(list).",
+            "NEED_TEXT_SONG": "Which song? \neg: .song noureddine ouafy",
+            "NO_RESULT": "للاسف لم نعثر على شيء راسل صاحب البوت noureddine_ouafy",
+            "UPLOADING_SONG": "جاري تحميل وارسال الموسيقى لكم ♥",
+            "VIDEO_DESC": "تحميل فيديوات اليوتوب.",
+            "NEED_VIDEO": "اين هو الرابط الذي تريد تحميله?",
+            "DOWNLOADING_VIDEO": "جاري التحميل يا عزيزي",
+            "UPLOADING_VIDEO": "جاري الارسال انتظر قليلا",
             "DLANG_DESC": "Guess the language of replied message.",
             "DLANG_CLOSER": "Closest result:",
             "DLANG_LANG": "Language:",
             "DLANG_SIMI": "Similarity:",
             "DLANG_OTHER": "Other languages",
             "DLANG_INPUT": "Processed text:",
-            "YT_DESC": "Searches on YouTube.",
+            "YT_DESC": "البحث في اليوتوب.",
             "NEED_WORDS": "Need some query",
             "NOT_FOUND": "Not found",
-            "SEARCHING": "Searching",
+            "SEARCHING": "جاري البحث",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for images on Google.",
             "IMG": "Uploading {} results for {}",
             "MATCHING_SONGS": "Matching songs from YouTube",
-            "YTS_DESC": "Select videos in youtube",
-            "YTS_RESULTS": "Search results from YouTube",
-            "YTV_DESC": "Select & download yt videos in available quality formats"
+            "YTS_DESC": "اختر الفيديو الذي تريده",
+            "YTS_RESULTS": البحث في اليوتوب",
+            "YTV_DESC": "اختر الفيديو الذي تريده واختر الجودة التي تفضلها ♥"
         },
         "sticker": {
-            "STICKER_DESC": "Creates stickers. Reply to media.",
-            "NEED_REPLY": "Reply to a photo or short video"
+            "STICKER_DESC": "صناعة الملصقات .",
+            "NEED_REPLY": "قم بالاشارة لصورة او فيديو"
         },
         "system_stats": {
-            "ALIVE_DESC": "Checks if the bot is working or not",
+            "ALIVE_DESC": "اذا اردت معرفة هل البوت متصل بالانترنيت ام لا",
             "SYSD_DESC": "Shows the system properties."
         },
         "tagall": {
-            "TAGALL_DESC": "Mentions everyone in the group.",
-            "ADMIN": "I'm not an admin"
+            "TAGALL_DESC": "منش لجميع اعضاء الغروب.",
+            "ADMIN": "انا لست ادمين "
         },
         "updater": {
             "UPDATER_DESC": "Checks for bot updates.",
@@ -210,8 +211,8 @@
             "AFTER_UPDATE": "Restarting"
         },
         "ping": {
-            "PING_DESC": "Measures your ping.",
-            "URL": "Shorten the long link."
+            "PING_DESC": "معرفة البينغ.",
+            "URL": "اختصار الروابط."
         },
         "instagram": {
             "NEED_WORD": "Please enter username of any instagram account.",
@@ -228,6 +229,5 @@
             "HIDDEN": "Hidden",
             "NOT_FOUND": "User not found: "
         }
-       
     }
 }
